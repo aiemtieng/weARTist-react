@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Commission{
+    position: relative;
+    
+    background: #E9A0B1;
+    overflow: hidden;
+}
+.CommissionFooter{
+    position: relative;
+    z-index: 1;
+}
+.Backgroundwatercolor1{
+    position: absolute;
+    margin-top: 62%;
+    margin-left: -3%;
+    width: 45%;
+    height: auto;
+}
+.Backgroundwatercolor2{
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 80%;
+    width: 45%;
+    height: auto;
+}
+.Backgroundwatercolor3{
+    position: absolute;
+    margin-top: 137%;
+    margin-left: -15%;
+    width: 55%;
+    height: auto;
+}
+.Backgroundwatercolor4{
+    position: absolute;
+    margin-top: 140%;
+    margin-left: 60%;
+    width: 55%;
+    height: auto;
+}
+.Backgroundsunflower1{
+    position: absolute;
+    margin-top: 67.5%;
+    margin-left: 7.5%;
+}
+.Backgroundsunflower2{
+    position: absolute;
+    z-index: 1;
+    transform: scaleX(-1);
+    margin-top: 150%;
+    margin-left: -4%;
+}
+.Backgroundsunflower3{
+    position: absolute;
+    z-index: 1;
+    margin-top: 150%;
+    margin-left: 90%;
+}
+.Backgroundpurpleflower1{
+    position: absolute;
+    margin-top: 95%;
+    margin-left: 92%;
+}
+.Backgroundpurpleflower2{
+    position: absolute;
+    margin-top: 152%;
+    margin-left: 6%;
+}
+.Backgroundpurpleflower3{
+    position: absolute;
+    margin-top: 152%;
+    margin-left: 83%;
+}

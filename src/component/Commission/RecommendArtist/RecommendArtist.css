@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.RecommendArtist img{
+    margin-top: 3%;
+    width: 100%;
+}
+.TextArtist{
+    margin-top: 1%;
+    margin-bottom: 0.3%;
+    color: #FFF;
+    text-shadow: -1.3px -1.3px 0 #432144,  
+               1.3px -1.3px 0 #432144,  
+               -1.3px 1.3px 0 #432144,  
+               1.3px 1.3px 0 #432144;
+    text-align: center;
+    font-family: 'Lora',serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10px;
+}

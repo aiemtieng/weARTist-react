@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.BackgroundHomePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BackgroundHomePage img{
+    width: 100%;
+}
+.BackgroundHomePage h3{
+    position: absolute;
+    z-index: 1;
+    margin-top: -146.5%;
+}
+.TextNameHomePage{
+    text-align: center;
+    font-family: 'Satisfy',cursive;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #FEA3B5 0%, #491F73 58.44%, #32154F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

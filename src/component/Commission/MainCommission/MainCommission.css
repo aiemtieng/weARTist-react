@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.MainCommission img{
+   margin-top: -5%;
+   margin-left: 1.4%;
+}
+.TextMainCommission{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 55%;
+}

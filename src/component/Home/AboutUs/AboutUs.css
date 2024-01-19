@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.AboutUs{
+    position: absolute;
+    z-index: 1;
+    margin-top: -120%;
+}
+.AboutUs img{
+    margin-left: 120%;
+    width: 87%;
+    height: 15%;
+}
+
+/*ส่วนแนะนำaboutus*/
+.TextAboutUs{
+    margin-top: 2%;
+    margin-left: 118.5%;
+    width: 45%;
+    color: white;
+    text-align: center;
+    font-family: 'Lora',serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 10px;
+}
+.LineUnderAbouUsText{
+    margin-left: 120%;
+}
+
+/*ส่วนแนะนำdescription*/
+.TitleDescriptionAboutUs ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 4%;
+    margin-left: 120%;
+    width: 100%;
+    color: #FDEDED;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+.TitleDescriptionAboutUs li{
+    margin-right: 10px;
+}
+.TextTitleEng{
+    font-family: 'Lora',serif;
+}
+.TextTitleThai{
+    font-family: 'Sarabun', sans-serif;
+}
+.DescriptionAboutUs{
+    width: 100%;
+    margin-top: 4%;
+    margin-left: 120%;
+}
+.TextDescription{
+    color: #FEA3B5;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 23.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130.435%; /* 30px */
+    letter-spacing: 1.15px;
+}
+
+/*ส่วนanimation image*/
+.ImageAnimation {
+    position: relative;
+    margin-top: -54%;
+    margin-left: -20%;
+    width: 57%; /* Adjust the width based on your requirements */
+    height: auto; /* Adjust the height based on your requirements */
+  }
+  
+  .ImageAnimation img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .ImageAnimation img.active {
+    opacity: 1;
+  }
+  
+
+  

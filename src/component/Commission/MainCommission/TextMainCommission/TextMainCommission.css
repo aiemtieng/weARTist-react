@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.TextMainCommission h1{
+    color: #1E1E1E;
+    font-family: 'Lora',serif;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+.TextMainCommission span{
+    color: #1E1E1E;
+    font-family: 'Sarabun',sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 595;
+    line-height: 130.435%; /* 28.696px */
+    letter-spacing: 0.44px;
+}

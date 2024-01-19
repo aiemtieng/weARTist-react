@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*ส่วนรูปภาพ*/
+.BackgroundEmmaProfile{
+    width: 28%;
+    height: auto;
+}
+.BackgroundPolygon{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: -19.5%;
+    width: 10%;
+    height: auto;
+}
+.ImageEmma{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: -20.9%;
+    width: 13%;
+    height: auto;
+}
+
+/*ส่วนชื่อและข้อความอธิบาย*/
+.TextNameEmma{
+    position: absolute;
+    margin-top: -30.5%;
+    margin-left: 8.5%;
+    color: #FFF;
+    font-family: 'Lora',serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 130.435%; /* 33.913px */
+    letter-spacing: 0.52px;
+}
+.LineUnderEmmaNameText{
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 3.7%;
+}
+.TextDescriptionAboutEmma{
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 3%;
+    text-align: center;
+    color: #E9D3A4;
+    font-family: 'Sarabun',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130.435%; /* 20.87px */
+    letter-spacing: 0.32px;
+}
+
+/*ส่วนรายละเอียดอื่นๆ*/
+.TextStatus,.TextType,.TextPrice{
+    display: flex;
+    width: 16%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #311240;
+    color: #FFF;
+    font-family: 'Sarabun',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.435%; /* 23.478px */
+    letter-spacing: 0.36px;
+}
+.TextStatus p,.TextType p,.TextPrice p{
+    margin-left: 3%;
+    color: #E9A0B1;
+}
+.TextStatus{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 5%;
+}
+.TextType{
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 5%;
+}
+.TextPrice{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 5%;
+}

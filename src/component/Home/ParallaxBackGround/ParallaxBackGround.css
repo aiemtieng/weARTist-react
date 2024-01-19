@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.PointedYellow{
+    position: absolute;
+    margin-top: -123.5%;
+    margin-left: 17%;
+}
+.CirclePink{
+    position: absolute;
+    margin-top: -105%;
+    margin-left: 13.5%;
+}
+.RightPointedPink{
+    position: absolute;
+    margin-top: -95%;
+    margin-left: 90%;
+}
+.LeftPointedPink{
+    position: absolute;
+    margin-top: -45%;
+    margin-left: -10%;
+}

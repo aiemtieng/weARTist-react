@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Footer{
+    position: absolute;
+    z-index: 1;
+    margin-top: -20%;
+    margin-left: 11.5%;
+}

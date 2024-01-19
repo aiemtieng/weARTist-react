@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.BackgroundExImage{
+    position: absolute;
+    width: 72%;
+    height: 112%;
+    margin-top: -53.4%;
+    margin-left: 28%;
+}
+/* YourComponent.css */
+
+.EmmaExampleImage {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* หรือสามารถใช้ justify-content: space-around; ตามที่คุณต้องการ */
+  }
+  
+  .ExampleImageRow {
+    display: flex;
+  }
+  
+  .ExampleImageRow img {
+    margin-right: 10px; /* ระยะห่างระหว่างรูปภาพ */
+  }

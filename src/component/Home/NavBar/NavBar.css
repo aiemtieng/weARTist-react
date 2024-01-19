@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.NavBar {
+    background-color: white; 
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+    padding: 23px;
+    position: sticky;
+}
+.NavBarTab {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*ส่วนlogo*/
+.Logo {
+    margin: 0;
+    text-align: center;
+    font-family: 'Satisfy',cursive; 
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #FEA3B5 0%, #491F73 58.44%, #32154F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: auto;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+/*ส่วนlinkไปหน้าอื่นๆ*/
+.NavTextCommission,.NavTextShop,.NavTextLogin{
+    color: #491F73;
+    text-align: center;
+    font-family: Lora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    text-decoration: none;
+}
+.NavIconShoppingBag{
+    display: inline-block;
+}
+.NavIconShoppingBag img{
+    width: 40px;
+    height: auto;
+}
+.NavTextCommission,
+.NavTextShop,
+.NavIconShoppingBag,
+.NavTextLogin {
+    order: 1; /* จัดลำดับของ element ให้อยู่ด้านขวา */
+    margin-left: 40px; /* ขอบซ้ายของแต่ละ element เพื่อเว้นระยะห่าง */
+    margin-right: 30px;
+    cursor: pointer;
+}
+.NavTextCommission:hover,
+.NavTextShop:hover,
+.NavTextLogin:hover {
+    background: #491F73;
+    color: white;
+}
+

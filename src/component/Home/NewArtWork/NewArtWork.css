@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.LongTabOnTextArtNewWork{
+    position: absolute;
+    z-index: 1;
+    margin-top: -80%;
+    margin-left: 13%;
+}
+
+/*ส่วนText NewArtWork*/
+.TitleNewArtWork{
+    position: absolute;
+    z-index: 1;
+    margin-top: -77%;
+    margin-left: 13%;
+}
+.TextNewArtWork{
+    margin-left: -60%;
+    color: white;
+    text-align: center;
+    font-family: 'Lora',serif;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10px;
+}
+.TextNewArtWorkThai{
+    margin-top: 2.5%;
+    margin-left: -70%;
+    color: #FEA3B5;
+    text-align: center;
+    font-family: 'Sarabun',sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+/*ส่วนแนะนำรูปใหม่ๆ*/
+.ImageNewArtWork{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin: 0 5%;
+}
+.carousel{
+    width: 83%;
+    margin-top: -75%;
+    margin-left: 9%;
+    cursor: grab;
+    overflow: hidden;
+}
+.inner-carousel{
+    width: 83%;
+    height: 40%;
+    display: flex;
+}
+.imageitem{
+    min-width: 50%;
+    min-height: auto;
+    padding: 7px;
+}
+.imageitem img{
+    pointer-events: none;
+}
+.ImageNewArtWork .carousel .inner-carousel .imageitem {
+    width: 100%; /* กำหนดให้รูปภาพเต็ม container */
+    height: 100%; /* กำหนดให้รูปภาพเต็ม container */
+}
+.ImageNewArtWork .carousel .inner-carousel .imageitem img {
+    width: 100%; /* กำหนดให้รูปภาพเต็ม container */
+    height: 100%; /* กำหนดให้รูปภาพเต็ม container */
+    object-fit: cover; /* ปรับขนาดของรูปภาพเพื่อครอบคลุมพื้นที่ */
+}
+  
+
