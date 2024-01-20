@@ -9,19 +9,13 @@ import ParallaxBackGround from './ParallaxBackGround/ParallaxBackGround';
 
 function Home() {
   return (
-    <div
-      className='TestJSX'
-      style={{
-        display:'flex',
-        alignItems:'center',
-        gap:'12px',
-        background:'dodgerblue',
-        padding:'12px'
-      }}
-    >
-      <button>=</button>
-      <code style={{color:'#FFF'}}>Title</code>
-      <button style={{marginLeft:'auto'}}>Button</button>
+    <div className='Home'>
+      <NavBar/>
+      <BackgroundHomePage/>
+      <AboutUs/>
+      <NewArtWork/>
+      <ParallaxBackGround/>
+      <Footer/>
     </div>
   );
 }
