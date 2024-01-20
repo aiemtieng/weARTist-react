@@ -30,7 +30,7 @@ function SignUpPage() {
       </div>
 
       <div className="SignUpText">
-        <h3 className="ProjectNameText">weARTist</h3>
+        <Link to="/" className="ProjectNameText">weARTist</Link>
         <h3 className="TextSignUp">SIGN UP</h3>
         {error && <div className="AlertDanger">{error}</div>}
         <svg className="LineUnderSignUpText" width="740" height="10">

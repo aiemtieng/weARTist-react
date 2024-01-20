@@ -31,7 +31,7 @@ function LoginPage() {
       </div>
 
       <div className="LoginText">
-        <h3 className="ProjectNameText">weARTist</h3>
+        <Link to="/" className="ProjectNameText">weARTist</Link>
         <h3 className="TextLogin">LOGIN</h3>
         <svg className="LineUnderLoginText" width="740" height="10">
           <line

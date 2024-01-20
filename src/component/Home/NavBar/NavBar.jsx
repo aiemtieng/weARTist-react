@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <div className='NavBar'>
         <nav className='NavBarTab'>
-            <h3 className='Logo'>weARTist</h3>
+            <Link to="/" className='Logo'>weARTist</Link>
             <Link to="/commissionpage" className='NavTextCommission'>Commission</Link>
             <Link className='NavTextShop'>Shop</Link>
             <Link className='NavIconShoppingBag'><img src={IconBag} alt='IconBag'></img></Link>

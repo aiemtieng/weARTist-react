@@ -13,9 +13,12 @@
 
 .EmmaExampleImage {
     position: absolute;
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* หรือสามารถใช้ justify-content: space-around; ตามที่คุณต้องการ */
+    margin-top: -50%;
+    margin-left: 30%;
   }
   
   .ExampleImageRow {
@@ -23,5 +26,8 @@
   }
   
   .ExampleImageRow img {
-    margin-right: 10px; /* ระยะห่างระหว่างรูปภาพ */
+    width: 32%;
+    height: auto;
+    margin-right: 1.5%; /* ระยะห่างระหว่างรูปภาพ */
+    margin-bottom: 3%;
   }

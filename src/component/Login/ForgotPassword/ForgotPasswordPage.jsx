@@ -11,7 +11,7 @@ function ForgotPasswordPage() {
       </div>
 
       <div className="ForgotPasswordText">
-        <h3 className="ProjectNameText">weARTist</h3>
+        <Link to="/" className="ProjectNameText">weARTist</Link>
         <h3 className="TextForgotPassword">FORGOT PASSWORD</h3>
         <svg className="LineUnderForgotPasswordText" width="740" height="10">
           <line

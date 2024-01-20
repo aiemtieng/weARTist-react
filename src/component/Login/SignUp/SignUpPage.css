@@ -39,6 +39,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
     line-height: normal;
     color: #FEA3B5;
+    text-decoration: none;
 }
 .TextSignUp{
     position: absolute;
